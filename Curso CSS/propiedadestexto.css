@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    border: 0;
+    font-size: 20px;
+}
+
+.contac-fomr__h2 {
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+    font-weight: normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+    color: aqua;
+}
+
+/*h2{ para convertir un elemento en forma lineal o no en bloque
+    display: inline;
+}*/
+.pch2 {
+    background-color: rgb(6, 129, 99);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 4px solid rgb(199, 14, 14);
+    box-shadow: 10px 10px 20px rgb(41, 31, 31);
+    text-shadow: 4px 4px 20px rgb(243, 241, 241);
+    transform: rotate(10deg);
+}
+
+div div {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+.padre{
+    margin: 100px auto;
+    width: 450px;
+    height: 450px;
+    background: green;
+    border: 4px solid red;
+    position: relative;;
+}
+.caja1 {
+    right: 0;
+    bottom: 0;
+}
+
+.caja2 {
+   right: 0; 
+}
+
+.caja3 {
+    left: 0;
+}
+
+.caja4 {
+    bottom: 0;
+}
+
+ .caja-fixed{
+    background: yellow;
+    position: fixed;
+    top: 0;
+ }

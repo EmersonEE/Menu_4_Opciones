@@ -1,0 +1,44 @@
+.title {
+    color: brown;
+}
+
+#subtitle {
+    color: blueviolet;
+}
+
+#button {
+    color: aquamarine;
+}
+
+[parafo="siu"] {
+    color: blue;
+}
+
+#parafo2:hover {
+    color: aqua;
+}
+
+#parafo2:hover {
+    color: blueviolet !important
+}
+
+.form__input--pito {
+    color: aqua;
+}
+
+.contac-form {
+    font-size: 10px;
+}
+
+.medidasrelativas {
+    font-size: 4em;
+}
+
+.tamañoletra { 
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+    font-weight: normal;
+    font-stretch: normal;
+    font-variant: small-caps;
+}
