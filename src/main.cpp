@@ -1,4 +1,4 @@
-#include <Arduino.h>
+#include <Arduino.h> //Comentarios de prueba para subir nuevamente
 // #include <DFRobot_LCD.h>
 #include <Wire.h>
 #include <LCD.h>
@@ -82,6 +82,7 @@ int inicio = 0;
 bool estado = 0;
 int ledon, ledoff = 0;
 float valor1, valor2 = 0;
+float pure = 0;
 // int PCF1 = 5; // Posicion CANDADO FILA 1
 // int PCF2 = 15; // Posicion CANDADO FILA 2
 long int numbers[] =
